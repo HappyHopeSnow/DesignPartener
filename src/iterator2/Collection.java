@@ -6,7 +6,7 @@ package iterator2;
 public interface Collection {
 
     /**获取迭代器方法**/
-    public Iterator iterator();
+    Iterator iterator();
 
     Object get(int index);
     int size();
